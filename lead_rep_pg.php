@@ -35,6 +35,7 @@ else
 <a href='http://localhost/testing_project/check_leads_assigned_to_you_pg.php'>Check Leads assigned to you</a> &nbsp;&nbsp;&nbsp;
 <a href='http://localhost/testing_project/check_ongoing_projects_pg.php'>Check on going projects information</a> &nbsp;&nbsp;&nbsp;
 <a href='http://localhost/testing_project/edit_business_leads_info_pg.php'>Edit business leads information</a> &nbsp;&nbsp;&nbsp;
+<a href='http://localhost/testing_project/see_tasks_assigned_pg.php'>See Tasks assigned to you </a> &nbsp;&nbsp;&nbsp;
 
 </body>
 </html>

@@ -30,9 +30,11 @@ else
 <a href='http://localhost/testing_project/enter_employee_pg.php'>Enter New Employee</a> &nbsp;&nbsp;&nbsp;
 <a href='http://localhost/testing_project/search_employee_pg.php'>Seach For Employee</a> &nbsp;&nbsp;&nbsp;
 <a href='http://localhost/testing_project/edit_employee_info_pg.php'>Edit Employee Information</a>&nbsp;&nbsp;&nbsp;
+<a href='http://localhost/testing_project/assign_tasks_pg.php'>Assign Tasks To Employees</a>&nbsp;&nbsp;&nbsp;
 <a href='http://localhost/testing_project/add_news_bulletin_pg.php'>Add News And Bulletin<br><br><br><br>
 <a href='http://localhost/testing_project/see_statistics_button_pg.php'>See Statistics</a><br><br>
 <a href='http://localhost/testing_project/send_mail_pg.html'>Send Email </a> <br><br><br>
 <a href='http://localhost/testing_project/check_ongoing_projects_pg.php'>Check on going projects information</a> &nbsp;&nbsp;&nbsp;
+<a href='http://localhost/testing_project/check_tasks_assigned_by_you.php'>Check tasks assigned by you </a> &nbsp;&nbsp;&nbsp;
 </body>
 </html>
