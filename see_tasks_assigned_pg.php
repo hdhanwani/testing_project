@@ -27,6 +27,8 @@ $result=mysqli_query($con,"$query") or die("Error: ".mysqli_error($con));
   echo "<form name ='task_status_submit' action='task_status_submit_pg.php' method='post'>" ; 
   echo "<table border =1>";
     echo "<th>" . "Completed" . "</th>";
+	echo "<th>" . "Need more info to complete" . "</th>" ;
+	echo "<th>" . "Still on it" . "</th>" ;
     echo "<th>" . "Task_id" . "</th>";
 	echo "<th>" . "Task_title" . "</th>";
 	echo "<th>" . "Task_description" . "</th>";
@@ -41,6 +43,8 @@ while ($row = mysqli_fetch_array($result))
 	{
     echo " <tr> "; 
 	echo "<td>" . "<input type = 'radio' name= 'select2' value='".$row['task_id']."' >"."</td>" ;
+	echo "<td>" . "<input type= 'radio' name='select3' value='".$row['task_id']."' >"."</td>" ;
+	echo "<td>" . "<input type= 'radio' name='select4' value='".$row['task_id']."' >"."</td>" ;
 	echo "<td>" . $row ['task_id'] . "</td>";
 	echo "<td>" . $row ['task_title'] . "</td>";
 	echo "<td>" . $row ['task_description'] . "</td>";

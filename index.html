@@ -1,17 +1,56 @@
 <html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script>
+	function validate_login() 
+	{
+        var x = document.forms["login_page"].username.value;
+        var y = document.forms["login_page"].passwd.value;
+        if (y == "" && x == "") 
+		{
+			alert("Username & Password Required");
+			return false;
+        }		
+		else if(x == "" || x == null)
+		{
+			alert("Username Required");
+			return false;
+		}	
+        else if (y == null ||  y == "") 
+		{
+			alert("Password Required");
+			return false;
+        }
+		return true;
+    }
+	
+</script>
+<br><br><br>
+<h1> Business Leads Management System &copy;</h1>
+	<table align="center">
+		<th><p>Project by : Hitesh Dhanwani</p></th>
+		<th><p>E-mail: <a href="mailto:hdhanwani@gmail.com">hdhanwani@mail.fresnostate.edu.</a></p></th>
+	</table>
+<hr><br><br>
+<title> DHANWANI&copy; </title>
+</head>
+
 <body>
-<h1> login page </h1>
-<br>
-<br>
-<br>
-<form name="login_info" action="1st_pg.php" method="post">
-<h2>Username:</h2><input type="text" name="username" value=""><br>
-<h2>Password:</h2><input type="password" name="passwd" value=""><br>
-<br>
-<br>
-<br>
-<input type="submit" value="Submit"><br><br>
-</form>
-<a href="localhost/testing_project/forgotpass.php"> forgot username/password </a>
+	<!-- Form movies -->
+		<form name="login_page"  action="1st_pg.php" onsubmit="return validate_login()" method="POST">
+		<table align="center">
+		<tr>
+		<th>Login :</th>
+		<td><input type="login" name="username" placeholder="Enter username" size="35"></td>
+		</tr>
+		<tr>
+		<th>Password :</th>
+		<td><input type="password" name="passwd" placeholder="Enter Password" size="35"></td>
+		</tr>
+		</table>
+		<p><input type="image" src="login.png" alt="Submit" width="80" height="30"></p>
+		</form>
+	<!-- Form End-->
+	
 </body>
 </html>

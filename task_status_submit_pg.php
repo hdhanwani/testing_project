@@ -31,6 +31,28 @@ $con= mysqli_connect("localhost","root","3rdmarch","real_estate");
   echo "<h1>"."The final status of the selected task is updated to complete "."</h1>" ;
  }
  
+ else if (isset($_POST['select3']))
+  {
+  
+  mysqli_query($con,"update tasks set final_status='need more info'
+  where task_id ='".$_POST['select3']."'"); //or die("Error :".mysqli_error($con));
+  echo "<br>";
+  echo "<br>";
+  echo "<br>";
+  echo "<h1>"."The final status of the selected task is updated to need more info "."</h1>" ;
+ }
+ 
+ else if (isset($_POST['select4']))
+  {
+  
+  mysqli_query($con,"update tasks set final_status='still on it'
+  where task_id ='".$_POST['select4']."'"); //or die("Error :".mysqli_error($con));
+  echo "<br>";
+  echo "<br>";
+  echo "<br>";
+  echo "<h1>"."The final status of the selected task is updated to still on it "."</h1>" ;
+ }
+ 
  else
  {
  echo "<br>";
@@ -40,6 +62,13 @@ $con= mysqli_connect("localhost","root","3rdmarch","real_estate");
  }
 
 ?>
+
+<html>
+<body>
+<br><br><br>
+<a href="lead_rep_pg.php">Go Back to Main Page</a>
+</body>
+</html>
 <!--
 <html>
 <body>
