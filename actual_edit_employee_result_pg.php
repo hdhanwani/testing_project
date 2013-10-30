@@ -71,7 +71,7 @@ while ($row=mysqli_fetch_array($result))
 <br>
 <br>
 <H1>The employee information submitted after edit is:- </h1><br><br>
-<a href ='lead_rep_manager_pg.php'> GO BACK TO MAIN PAGE </a> <br><br><br>
+<a href ='lead_rep_manager_page_gui.php'> GO BACK TO MAIN PAGE </a> <br><br><br>
 
 
 </html>

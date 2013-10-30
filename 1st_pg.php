@@ -41,7 +41,7 @@ $con = mysqli_connect("localhost","root","3rdmarch","real_estate") ;
 {
         $_SESSION['empid'] =$dbempid;
         $_SESSION['CurrentUser'] =$uname;
-        header( 'Location: http://localhost/testing_project/lead_rep_manager_pg.php' );
+        header( 'Location: http://localhost/testing_project/lead_rep_manager_page_gui.php' );
 }   
   }
   else

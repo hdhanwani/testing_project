@@ -62,7 +62,7 @@ while ($row=mysqli_fetch_array($result))
 <br><br>
 <h1> The Task Information You have submitted is:- </h1>
 <br><br>
-<a href ="lead_rep_manager_pg.php"> Go back to main page </a><br><br>
+<a href ="lead_rep_manager_page_gui.php"> Go back to main page </a><br><br>
 </body>
 </html>  
 

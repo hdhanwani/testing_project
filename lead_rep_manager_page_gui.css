@@ -1,0 +1,69 @@
+body
+{
+background: url('http://www.hddesktopbackgrounds.us/backgrounds-images/1920x1080/2ueql-desktop-17085326-1920x1080.jpg') no-repeat fixed center;
+background-repeat:no-repeat;
+background-size:100%100%;
+}
+table
+{
+border:0px solid silver ;
+width:50%;
+}
+th
+{
+background-color:;
+color:white;
+height:0px;
+font-family:Cambria;
+}
+td
+{
+background-color:;
+color:white;
+text-align:center;
+height:32px;
+font-family:Cambria;
+}
+h1
+{
+color:Silver;
+font-family:Algerian;
+text-align: center;
+}
+h2
+{
+color:White;
+font-family:Cambria;
+}
+p
+{
+color:white;
+font-family:cambria;
+text-align:center;
+font-size:11;
+}
+.right
+{
+color:white;
+font-family:cambria;
+text-align:center;
+font-size:11;
+text-align:right;
+}
+hr
+{
+align:center;
+width:60%;
+}
+a:link {color:#99CCFF;}      /* unvisited link */
+a:hover {color:#0000FF;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+
+
+
+
+
+
+
+

@@ -107,6 +107,6 @@ $con= mysqli_connect("localhost","root","3rdmarch","real_estate");
 <body>
 <br>
 <br>
-<a href="lead_rep_manager_pg.php">Go back to main page</a>
+<a href="lead_rep_manager_page_gui.php">Go back to main page</a>
 </html>
 </body>
