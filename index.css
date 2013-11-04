@@ -7,7 +7,7 @@ background-size:100%100%;
 table
 {
 border:0px solid silver ;
-width:25%;
+width:40%;
 }
 th
 {
@@ -32,6 +32,8 @@ text-align: center;
 }
 h2
 {
+
+text-align:center;
 color:White;
 font-family:Cambria;
 }
@@ -58,9 +60,11 @@ hr
 align:center;
 width:60%;
 }
-a:link {color:#99CCFF;}      /* unvisited link */
+a:link {color:white;}      /* unvisited link */
 a:hover {color:#0000FF;}  /* mouse over link */
 a:active {color:#0000FF;}  /* selected link */
+
+
 
 
 

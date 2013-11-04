@@ -37,7 +37,7 @@ else
   }
   
 $result = mysqli_query($con,"select * from employees order by emp_id desc limit 1;");
-echo "<table border =1>";
+echo "<table align='center' border='1'>";
 	echo "<th>" . "emp_id" . "</th>";
 	echo "<th>" . "first_name" . "</th>";
 	echo "<th>" . "last_name" . "</th>";
@@ -72,11 +72,14 @@ while ($row=mysqli_fetch_array($result))
 ?>
 
     <html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
 	<body>
 	<br><br>
 	<h1>This information has been stored to the database</h1><br><br>
-	<h3>Click The link below to enter login info of this employee</h3>
-	<a href="enter_login_info_of_employee_pg.php"> Enter Login Information </a>
+	<h2>Click The link below to enter login info of this employee</h2>
+	<p><a href="enter_login_info_of_employee_pg.php"> <button>Enter Login Information</button> </a></p>
 	</html>
 	</body>
 	

@@ -67,14 +67,18 @@ while ($row=mysqli_fetch_array($result))
 ?>
 
 <html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+
 <body>
 <br>
 <br>
 <H1>The employee information submitted after edit is:- </h1><br><br>
-<a href ='lead_rep_manager_page_gui.php'> GO BACK TO MAIN PAGE </a> <br><br><br>
+<a href ='lead_rep_manager_page_gui.php'><button> GO BACK TO MAIN PAGE </button></a> <br><br><br>
 
 
-</html>
 </body>
+</html>
 
 

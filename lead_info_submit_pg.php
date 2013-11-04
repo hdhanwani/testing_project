@@ -94,6 +94,6 @@ while ($row=mysqli_fetch_array($result))
 	<body>
 	<br><br>
 	<h1>This Business Lead Information has been stored to the database</h1><br><br>
-	<a href="lead_rep_pg.php">Go back to main page </a>
+	<a href="lead_reps_page.php">Go back to main page </a>
 </html>
 </body>

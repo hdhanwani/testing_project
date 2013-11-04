@@ -58,11 +58,14 @@ while ($row=mysqli_fetch_array($result))
 
  ?>
  
- 
  <html>
-	<body>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<title> DHANWANI&copy; </title>
+</head>
+ <body>
 	<br><br>
 	<h1>This Login Information has been stored to the database</h1><br><br>
-	<a href="lead_rep_manager_page_gui.php">Go back to main page </a>
+	<a href="lead_rep_manager_page_gui.php"><button>Go back to main page</button> </a>
 </html>
 </body>

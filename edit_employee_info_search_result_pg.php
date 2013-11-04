@@ -1,3 +1,15 @@
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<title> DHANWANI&copy; </title>
+</head>
+<body>
+<h1>Select Employees Whose Information is to be edited</h1>
+</body>
+</html>
+
+
 <?php
 
 session_start();
@@ -84,3 +96,4 @@ while ($row = mysqli_fetch_array($result))
 
 
 ?>
+

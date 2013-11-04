@@ -27,8 +27,17 @@ $con= mysqli_connect("localhost","root","3rdmarch","real_estate");
  $row = mysqli_fetch_array($result) ;
  
  ?>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<h1> Business Leads Management System &copy;</h1>
+	<table align="center">
+		<th><p>Project by : Hitesh Dhanwani</p></th>
+		<th><p>E-mail: <a href="mailto:hdhanwani@gmail.com">hdhanwani@mail.fresnostate.edu.</a></p></th>
+	</table>
+<title> DHANWANI&copy; </title>
 
- <html>
+</head>
 <body>
 <br><br>
 <form name="edit_employee_info2" action="http://localhost/testing_project/actual_edit_employee_result_pg.php" method="post">

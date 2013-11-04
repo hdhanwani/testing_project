@@ -35,7 +35,7 @@ $con = mysqli_connect("localhost","root","3rdmarch","real_estate") ;
    if($dbpostid==1)
         {
 		 $_SESSION['CurrentUser']=$uname;
-		header( 'Location: http://localhost/testing_project/lead_rep_pg.php' ) ;
+		header( 'Location: http://localhost/testing_project/lead_reps_page.php' ) ;
         }
    else if($dbpostid==2)
 {
