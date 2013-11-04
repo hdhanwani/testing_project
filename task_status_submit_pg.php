@@ -66,7 +66,7 @@ $con= mysqli_connect("localhost","root","3rdmarch","real_estate");
 <html>
 <body>
 <br><br><br>
-<a href="lead_rep_pg.php">Go Back to Main Page</a>
+<a href="lead_reps_page.php"><button>Go Back to Main Page</button></a>
 </body>
 </html>
 <!--
