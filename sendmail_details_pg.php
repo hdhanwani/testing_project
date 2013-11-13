@@ -1,7 +1,20 @@
 <?php
 
 ?>
+
 <html>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<h1> Business Leads Management System &copy;</h1>
+	<table align="center">
+		<th><p>Project by : Hitesh Dhanwani</p></th>
+		<th><p>E-mail: <a href="mailto:hdhanwani@gmail.com">hdhanwani@mail.fresnostate.edu.</a></p></th>
+	</table>
+<title> DHANWANI&copy; </title>
+
+</head>
+
+
 <body>
 <h1>Send Text Msg By Filling the Below Details:-</h1><br><br>
 <form  name="sendmail_details" action="send-mail.php" method="post"><br><br>

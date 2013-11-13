@@ -15,6 +15,16 @@ else
 ?>
 
 <html>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<h1> Business Leads Management System &copy;</h1>
+	<table align="center">
+		<th><p>Project by : Hitesh Dhanwani</p></th>
+		<th><p>E-mail: <a href="mailto:hdhanwani@gmail.com">hdhanwani@mail.fresnostate.edu.</a></p></th>
+	</table>
+<title> DHANWANI&copy; </title>
+
+</head>
 <body>
 <h1>Enter Employee ID'S to check performance</h1><br><br>
 <form name="employee_performance_pie" action="http://localhost/testing_project/see_statistics_result_pg.php" method="post">

@@ -1,3 +1,20 @@
+
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+
+
+<body>
+<br>
+<br>
+<H1>The business_lead_information information submitted after edit is:- </h1><br><br>
+<a href ='lead_reps_page.php'><button> GO BACK TO MAIN PAGE </button></a> <br><br><br>
+
+
+</body>
+</html>
+
 <?php
 
 session_start();
@@ -77,16 +94,6 @@ while ($row=mysqli_fetch_array($result))
 
 ?>
 
-<html>
-<body>
-<br>
-<br>
-<H1>The business_lead_information information submitted after edit is:- </h1><br><br>
-<a href ='lead_reps_page.php'><button> GO BACK TO MAIN PAGE </button></a> <br><br><br>
-
-
-</html>
-</body>
 
 
 

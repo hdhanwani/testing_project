@@ -47,3 +47,11 @@ while ($row1=mysqli_fetch_array($result))
 	mysqli_close($con);
 
 ?>
+
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+ <body>
+ </body>
+</html>

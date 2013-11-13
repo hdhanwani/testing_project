@@ -15,6 +15,21 @@ else
 ?>
 
 <html>
+<head>
+	<link rel="stylesheet" type="text/css" href="lead_rep_manager_page_gui.css">
+	<p class="right"><a href="index.html"><input type="image" src="lead_rep_buttons/button (8).png" width="80" height="20"></a></p1>
+	
+<br><br>
+<h1>Business Leads Management System &copy;</h1>
+	<table align="center">
+		<th><p>Project by : Hitesh Dhanwani</p></th>
+		<th><p>E-mail: <a href="mailto:hdhanwani@gmail.com">hdhanwani@mail.fresnostate.edu.</a></p></th>
+	</table>
+<hr><br>
+<title> DHANWANI&copy; </title>
+</head>
+
+
 <body>
 <br><br><br><br>
 <form name="lead_info" action="http://localhost/testing_project/lead_info_submit_pg.php" method="post">

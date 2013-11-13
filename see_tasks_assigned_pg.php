@@ -1,3 +1,17 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<h1> Business Leads Management System &copy;</h1>
+	<table align="center">
+		<th><p>Project by : Hitesh Dhanwani</p></th>
+		<th><p>E-mail: <a href="mailto:hdhanwani@gmail.com">hdhanwani@mail.fresnostate.edu.</a></p></th>
+	</table>
+<title> DHANWANI&copy; </title>
+
+</head>
+   <body>
+  </body>
+</html>
 <?php
 
 session_start();

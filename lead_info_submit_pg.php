@@ -91,9 +91,12 @@ while ($row=mysqli_fetch_array($result))
 ?>
 
 <html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
 	<body>
-	<br><br>
+    <br><br>
 	<h1>This Business Lead Information has been stored to the database</h1><br><br>
-	<a href="lead_reps_page.php">Go back to main page </a>
-</html>
+	<a href="lead_reps_page.php"><button>Go back to main page </button> </a>
 </body>
+</html>

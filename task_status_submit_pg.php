@@ -1,3 +1,17 @@
+
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+
+<body>
+<br><br><br>
+<a href="lead_reps_page.php"><button>Go Back to Main Page</button></a>
+</body>
+</html>
+
+
+
 <?php
 session_start();
 
@@ -63,12 +77,7 @@ $con= mysqli_connect("localhost","root","3rdmarch","real_estate");
 
 ?>
 
-<html>
-<body>
-<br><br><br>
-<a href="lead_reps_page.php"><button>Go Back to Main Page</button></a>
-</body>
-</html>
+
 <!--
 <html>
 <body>

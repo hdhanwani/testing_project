@@ -1,3 +1,13 @@
+
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+    <body>
+	</body>
+</html>	
+
+
 <?php
 
 session_start();

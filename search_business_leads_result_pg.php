@@ -1,3 +1,13 @@
+
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<body>
+	
+    </body>
+</html>	
+
 <?php
 session_start();
 
@@ -140,3 +150,5 @@ $result3=mysqli_query($con,"$query") or die("Error: ".mysqli_error($con));
   
   
 ?>
+
+	
