@@ -33,13 +33,26 @@ else
 <H1>SEARCH BUSINESS LEADS OF WHOSE INFORMATION IS TO BE EDITED </H1>
 <br><br>
 <form name="Search_business_lead_info" action="http://localhost/testing_project/edit_business_leads_info_search_result_pg.php" method="post">
-SEARCH BY Employee ID:-<input type="text" name="search_by_empid3"><br><br>
-SEARCH BY FIRST NAME:-<input type="text" name="search_by_fname3"><br><br>
-SEARCH BY LAST NAME:-<input type="text" name="search_by_lname3"><br><br>
-SEARCH BY CONTACT NUMBER:-<input type="text" name="search_by_contact_no3"><br><br>
+<table align="center">
+<tr>
+<th>SEARCH BY Employee ID:-</th>
+<td><input type="text" name="search_by_empid3"><br><br></td></tr>
+<tr>
+<th>SEARCH BY FIRST NAME:-</th>
+<td><input type="text" name="search_by_fname3"><br><br></td></tr>
+<tr>
+<th>SEARCH BY LAST NAME:-</th>
+<td><input type="text" name="search_by_lname3"><br><br></td></tr>
+<tr>
+<th>SEARCH BY CONTACT NUMBER:-</th>
+<td><input type="text" name="search_by_contact_no3"><br><br></td></tr>
+</table>
 
-<input type="submit" name="submit" value="EDIT">
-
-</html>
+<table align="center">
+<tr>
+<td><input type="submit" name="submit" value="EDIT"></td></tr>
+</table>
+</form>
 </body>
+</html>
 

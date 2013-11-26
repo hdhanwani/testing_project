@@ -27,25 +27,34 @@ else
 </head>
 
 <body>
-<br><br>
-<h1> ASSIGN TASKS TO EMPLOYEES USING THIS PAGE </h1><br><br>
-<h2> ENTER EMPLOYEE TO WHOM THE TASK IS TO BE ASSIGNED </h2><br>
+
+<h1> ASSIGN TASKS TO EMPLOYEES USING THIS PAGE </h1>
+<h2> ENTER EMPLOYEE TO WHOM THE TASK IS TO BE ASSIGNED </h2>
+<table align ="center">
 <form name="assign_task" action="http://localhost/testing_project/tasks_info_submit_pg.php" method="post">
-Enter Task Title : <input type ="text" name = "task_title"> <br><br>
-Enter Task Description : <textarea rows="5" cols="30" name="task_description"></textarea> <br><br>
-Enter employee id: <input type= "text" name = "emp_id7"> <br><br>
-Enter your id : <input type ="text" name ="mangers_emp_id" value="5" readonly> <br><br>
-Final Status:
-<Input type="radio" name="final_status1" value="Incomplete" checked>Incomplete &nbsp;&nbsp;
-<Input type="radio" name="final_status1" value="Complete">Complete &nbsp;&nbsp;	<br><br>
-Date of assigning : <input type ="text" name="doa"> <br><br>
-<input type="submit" value="submit"><br><br>  
+<tr>
+<th>Enter Task Title :- </th>
+<td> <input type ="text" name = "task_title"> <br><br> </td> </tr>
+<tr>
+<th>Enter Task Description :- </th>
+<td> <textarea rows="5" cols="30" name="task_description"></textarea> <br><br> </td> </tr>
+<tr>
+<th>Enter employee id:- </th>
+<td> <input type= "text" name = "emp_id7"> <br><br> </td> </tr>
+<tr>
+<th>Enter your id :- </th>
+<td> <input type ="text" name ="mangers_emp_id" value="5" readonly> <br><br> </td> </tr>
+<tr>
+<th>Final Status:- </th>
+<td><Input type="radio" name="final_status1" value="Incomplete" checked>Incomplete &nbsp;&nbsp; 
+<Input type="radio" name="final_status1" value="Complete">Complete &nbsp;&nbsp;	<br><br> </td> </tr>
+<tr>
+<th>Date of assigning :- </th>
+<td> <input type ="text" name="doa"> <br><br> </td> </tr>
+<table align ="center">
+<tr>
+<td><input type="submit" value="submit"><br><br></td></tr> 
+</table> 
 </form>
-
-
-
- 
-
-
-</html>
 </body>
+</html>

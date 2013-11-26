@@ -46,15 +46,31 @@ $con= mysqli_connect("localhost","root","3rdmarch","real_estate");
 <body>
 <br><br>
 <form name="edit_business_leads_info2" action="http://localhost/testing_project/actual_edit_business_leads_result_pg.php" method="post">
-
-Lead ID:<input type="text" name="LeadId" value="<?php echo $row['lead_id'] ?>" readonly><br>
-Emp ID: <input type="text" name="employeeID" value="<?php echo $row['emp_id'] ?>" readonly><br>
-First name: <input type="text" name="firstname" value="<?php echo $row['first_name'] ?>"><br>
-Last name: <input type="text" name="lastname" value="<?php echo $row['last_name'] ?>"><br>
-Address: <textarea rows="5" cols="30" name="address" ><?php echo $row['address'] ?></textarea><br>
-Contact number :<input type="text" name="contact_no" value="<?php echo $row['contact_no'] ?>"><br>
-Email :<input type="text" name="email" value="<?php echo $row['email'] ?>"><br>
-Martital status :<input type="text" name="marital_status" value="<?php echo $row['marital_status'] ?>"><br>
+<table align="center">
+<tr>
+<th>Lead ID:-</th>
+<td><input type="text" name="LeadId" value="<?php echo $row['lead_id'] ?>" readonly><br></td></tr>
+<tr>
+<th>Emp ID:-</th>
+<td> <input type="text" name="employeeID" value="<?php echo $row['emp_id'] ?>" readonly><br></td></tr>
+<tr>
+<th>First name:-</th>
+<td> <input type="text" name="firstname" value="<?php echo $row['first_name'] ?>"><br></td></tr>
+<tr>
+<th>Last name:- </th>
+<td><input type="text" name="lastname" value="<?php echo $row['last_name'] ?>"><br></td></tr>
+<tr>
+<th>Address:-</th> 
+<td><textarea rows="5" cols="30" name="address" ><?php echo $row['address'] ?></textarea><br></td></tr>
+<tr>
+<th>Contact number:-</th>
+<td><input type="text" name="contact_no" value="<?php echo $row['contact_no'] ?>"><br></td></tr>
+<tr>
+<th>Email:-</th>
+<td><input type="text" name="email" value="<?php echo $row['email'] ?>"><br></td></tr>
+<tr>
+<th>Martital status:-</th>
+<td><input type="text" name="marital_status" value="<?php echo $row['marital_status'] ?>"><br></td></tr>
 
 <!-- Property type needed:
 <input type="radio" name="property_type" value="apartment"> Apartment &nbsp;&nbsp; 
@@ -62,18 +78,22 @@ Martital status :<input type="text" name="marital_status" value="<?php echo $row
 <input type="radio" name="property_type" value="villa"> Villa &nbsp;&nbsp;
 <input type="radio" name="property_type" value="commercial"> Commercial &nbsp;&nbsp; <br><br> -->
 
+<tr>
+<th>Preferences:-</th> 
+<td><textarea rows="5" cols="30" name="preferences"><?php echo $row['preferences'] ?></textarea><br><br></td></tr>
 
-Preferences : <textarea rows="5" cols="30" name="preferences"><?php echo $row['preferences'] ?></textarea><br><br>
 
-
-
+<tr>
 	  
-Final Status:
-<Input type="radio" name="final_status" value="open" checked>Open &nbsp;&nbsp;
-<Input type="radio" name="final_status" value="closed">Closed &nbsp;&nbsp;	<br><br>  
+<th>Final Status:-</th>
+<td><Input type="radio" name="final_status" value="open" checked>Open &nbsp;&nbsp;
+<Input type="radio" name="final_status" value="closed">Closed &nbsp;&nbsp;	<br><br> </td> </tr>  
+</table>
 
-
-<input type="submit" value="submit">
+<table align ="center">
+<tr>
+<td><input type="submit" value="submit"></td></tr>
+</table>
 </form>
 
 </body>

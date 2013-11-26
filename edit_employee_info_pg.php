@@ -30,13 +30,26 @@ else
 <body>
 <H1>SEARCH EMPLOYEE OF WHOSE INFORMATION IS TO BE EDITED </H1>
 <br><br>
+<table align= "center">
 <form name="Search_employee_info" action="http://localhost/testing_project/edit_employee_info_search_result_pg.php" method="post">
-SEARCH BY Employee ID:-<input type="text" name="search_by_empid2"><br><br>
-SEARCH BY FIRST NAME:-<input type="text" name="search_by_fname2"><br><br>
-SEARCH BY LAST NAME:-<input type="text" name="search_by_lname2"><br><br>
-SEARCH BY CONTACT NUMBER:-<input type="text" name="search_by_contact_no2"><br><br>
+<tr>
+<th>SEARCH BY Employee ID:-</th>
+<td><input type="text" name="search_by_empid2"><br><br></td></tr>
+<tr>
+<th>SEARCH BY FIRST NAME:-</th>
+<td><input type="text" name="search_by_fname2"><br><br></td></tr>
+<tr>
+<th>SEARCH BY LAST NAME:-</th>
+<td><input type="text" name="search_by_lname2"><br><br></td></tr>
+<tr>
+<th>SEARCH BY CONTACT NUMBER:-</th>
+<td><input type="text" name="search_by_contact_no2"><br><br></td></tr>
 
-<input type="submit" name="submit" value="EDIT">
-
-</html>
+<table align="center">
+<tr>
+<td><input type="submit" name="submit" value="EDIT"></td>
+</tr>
+</table>
+</form>
 </body>
+</html>
